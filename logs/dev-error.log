@@ -1,0 +1,25 @@
+2016/12/27 15:56:13 [error] 31120#0: *16 lua entry thread aborted: runtime error: ./app/router.lua:7: attempt to index upvalue 'commonRouter' (a boolean value)
+stack traceback:
+coroutine 0:
+	./app/router.lua: in function 'router'
+	/home/zhaoqing/myblog/./app/main.lua:40: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
+2016/12/27 15:56:13 [error] 31120#0: *17 lua entry thread aborted: runtime error: ./app/router.lua:7: attempt to index upvalue 'commonRouter' (a boolean value)
+stack traceback:
+coroutine 0:
+	./app/router.lua: in function 'router'
+	/home/zhaoqing/myblog/./app/main.lua:40: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
+2016/12/27 15:56:13 [error] 31120#0: *18 lua entry thread aborted: runtime error: ./app/router.lua:7: attempt to index upvalue 'commonRouter' (a boolean value)
+stack traceback:
+coroutine 0:
+	./app/router.lua: in function 'router'
+	/home/zhaoqing/myblog/./app/main.lua:40: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
+2016/12/27 15:56:14 [error] 31120#0: *19 lua entry thread aborted: runtime error: ./app/router.lua:7: attempt to index upvalue 'commonRouter' (a boolean value)
+stack traceback:
+coroutine 0:
+	./app/router.lua: in function 'router'
+	/home/zhaoqing/myblog/./app/main.lua:40: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
+2016/12/27 15:56:14 [error] 31120#0: *20 lua entry thread aborted: runtime error: ./app/router.lua:7: attempt to index upvalue 'commonRouter' (a boolean value)
+stack traceback:
+coroutine 0:
+	./app/router.lua: in function 'router'
+	/home/zhaoqing/myblog/./app/main.lua:40: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
