@@ -42,14 +42,15 @@ router(app) -- business routers and routes
 -- 404 error
 app:use(function(req, res, next)
     if req:is_found() ~= true then
-        if sfind(req.headers["Accept"], "application/json") then
+        res:render("404")
+        --[[if sfind(req.headers["Accept"], "application/json") then
             res:status(404):json({
                 success = false,
                 msg = "404! sorry, not found."
             })
         else
             res:status(404):send("404! sorry, not found.")
-        end
+        end]]
     end
 end)
 

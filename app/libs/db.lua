@@ -92,7 +92,7 @@ local function split(str, delimiter)
     end
     
     local result = {}
-    for match in (str..delimiter):gmatch("(.-)"..delimiter) do
+    for match in (str..delimiter):gmatch("(.-)"..delimiter) do --  for match in (str..delimiter):gmatch("([^"..delimiter.."]+)") do
         tinsert(result, match)
     end
     return result

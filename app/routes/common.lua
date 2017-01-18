@@ -65,10 +65,69 @@ end
 
 return common_router]]
 
+local common = require("app.model.common")
+local json = require("cjson")
+
 local commonRouter = {}
 
+--首页页面控制器
+--查询最新10条数据
 commonRouter.index = function(req , res , next)
-    res:render("index")
+    local page_no = req.params.page or 1
+    local page_size = 10
+    local flag = 'index'
+    local articles = {}
+    local list = common:get_index_list(page_no,page_size,flag)
+    --ngx.log(ngx.INFO,"object:",json.encode(list))
+    if #list ~= 0 then
+        articles = list
+    end
+
+    local tags_list = common:get_tag_list()
+    local tags = {}
+    if #tags_list ~= 0 then
+        for _,val in pairs(tags_list) do
+            tags[val.id] = val.name
+        end
+    end
+    --ngx.log(ngx.ERR,"object:",json.encode(tags))
+
+    res:render("index",{articles=articles,tags =tags})
+end
+
+--列表页面控制器
+--查询列表数据按id倒叙显示
+commonRouter.list = function(req,res,next)
+    local page_no = req.params.page or 1
+    --ngx.log(ngx.ERR,"req:",json.encode(req.params.page))
+    --ngx.log(ngx.ERR,"ngx:",json.encode(ngx.req.get_uri_args()))
+    local page_size = 20
+    local flag = 'list'
+    local articles = {}
+    local list = common:get_index_list(page_no,page_size,flag)
+    if #list ~= 0 then
+        articles = list
+    end
+    res:render("list",{articles=articles,title="全部列表"})
+end
+
+--详情页面
+--根据id查询详细信息
+commonRouter.show = function(req,res,next)
+    local id = tonumber(req.params.id)
+    if not id then
+        res:redircet("/list")
+    end
+
+    local detail = common:get_detail(id)
+    --ngx.log(ngx.ERR,"ngx:",json.encode(detail))
+
+    if detail ~= 0 then
+        res:render("show",{article=detail[1]})
+    else
+        res:redircet("/list")
+    end
+
 end
 
 return commonRouter
