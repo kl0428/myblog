@@ -34,7 +34,8 @@ return {
         "^/auth/login$", -- login page
         "^/auth/sign_up$", -- sign up page
         "^/about$", -- about page
-        "^/error/$" -- error page
+        "^/error/$", -- error page
+        "^/article/$" -- error page
     },
 
     -- 静态模板配置，保持默认不修改即可
