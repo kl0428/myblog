@@ -35,123 +35,58 @@
 </script>
 </head>
 <body>
-<!--header-->
-<header>
- <h1><img src="/static/images_admin/admin_logo.png"/></h1>
- <ul class="rt_nav">
-  <li><a href="http://www.deathghost.cn" target="_blank" class="website_icon">站点首页</a></li>
-  <li><a href="#" class="clear_icon">清除缓存</a></li>
-  <li><a href="#" class="admin_icon">DeathGhost</a></li>
-  <li><a href="#" class="set_icon">账号设置</a></li>
-  <li><a href="login.html" class="quit_icon">安全退出</a></li>
- </ul>
-</header>
-<!--aside nav-->
-<!--aside nav-->
-<aside class="lt_aside_nav content mCustomScrollbar">
- <h2><a href="index.html">起始页</a></h2>
- <ul>
-  <li>
-   <dl>
-    <dt>常用布局示例</dt>
-    <!--当前链接则添加class:active-->
-    <dd><a href="article_list.html" class="active">商品列表示例</a></dd>
-    <dd><a href="article_detail.html">商品详情示例</a></dd>
-    <dd><a href="recycle_bin.html">商品回收站示例</a></dd>
-   </dl>
-  </li>
-  <li>
-   <dl>
-    <dt>订单信息</dt>
-    <dd><a href="order_list.html">订单列表示例</a></dd>
-    <dd><a href="order_detail.html">订单详情示例</a></dd>
-   </dl>
-  </li>
-  <li>
-   <dl>
-    <dt>会员管理</dt>
-    <dd><a href="user_list.html">会员列表示例</a></dd>
-    <dd><a href="user_detail.html">添加会员（详情）示例</a></dd>
-    <dd><a href="user_rank.html">会员等级示例</a></dd>
-    <dd><a href="adjust_funding.html">会员资金管理示例</a></dd>
-   </dl>
-  </li>
-  <li>
-   <dl>
-    <dt>基础设置</dt>
-    <dd><a href="setting.html">站点基础设置示例</a></dd>
-   </dl>
-  </li>
-  <li>
-   <dl>
-    <dt>配送与支付设置</dt>
-    <dd><a href="express_list.html">配送方式</a></dd>
-    <dd><a href="pay_list.html">支付方式</a></dd>
-   </dl>
-  </li>
-  <li>
-   <dl>
-    <dt>在线统计</dt>
-    <dd><a href="discharge_statistic.html">流量统计</a></dd>
-    <dd><a href="sales_volume.html">销售额统计</a></dd>
-   </dl>
-  </li>
-  <li>
-   <p class="btm_infor">© DeathGhost.cn 版权所有</p>
-  </li>
- </ul>
-</aside>
-
+{(admin/header.html)}
+{(admin/left.html)}
 <section class="rt_wrap content mCustomScrollbar">
  <div class="rt_content">
       <div class="page_title">
-       <h2 class="fl">商品详情示例</h2>
-       <a class="fr top_rt_btn">返回产品列表</a>
+       <h2 class="fl">文章</h2>
+       <a class="fr top_rt_btn" href="/article/list">返回产品列表</a>
       </div>
      <section>
       <ul class="ulColumn2">
+          <input type="hidden" id="id" value="{{id}}"/>
        <li>
-        <span class="item_name" style="width:120px;">商品名称：</span>
-        <input type="text" class="textbox textbox_295" placeholder="商品名称..."/>
-        <span class="errorTips">错误提示信息...</span>
+        <span class="item_name" style="width:120px;">文章标题：</span>
+        <input type="text" class="textbox textbox_295" name="title" id="title" value="{{article.title}}" placeholder="文章标题..."/>
+        <span class="errorTips title_errorTips" style="display: none">请输入18个字符以内的文字...</span>
        </li>
        <li>
-        <span class="item_name" style="width:120px;">商品货号：</span>
-        <input type="text" class="textbox" placeholder="商品货号..."/>
-        <span class="errorTips">错误提示信息...</span>
+        <span class="item_name" style="width:120px;">简介：</span>
+        <input type="text" class="textbox" name="abstarct" id="abstarct" value="{{article.abstarct}}" placeholder="简介..."/>
+        <span class="errorTips abstarct_errorTips" style="display: none">请输入少于32个字符的简介...</span>
        </li>
        <li>
-        <span class="item_name" style="width:120px;">品牌：</span>
-        <select class="select">
-         <option>选择品牌</option>
+        <span class="item_name" style="width:120px;">标签：</span>
+        <select class="select" name="tag" id="tag">
+                <option value="" >选择标签</option>
+            {% if #tags ~= 0 then %}
+                {% for _,val in pairs(tags) do %}
+                    <option value="{{val.id}}" {% if tonumber(article.tag) == tonumber(val.id)  then %} selected="selected" {% end %}>{{val.name}}</option>
+                {% end %}
+            {% end %}
         </select>
-        <span class="errorTips">错误提示信息...</span>
+        <span class="errorTips tag_errorTips" style="display: none">请选择文章所属标签...</span>
        </li>
+
        <li>
-        <span class="item_name" style="width:120px;">分类：</span>
-        <select class="select">
-         <option>选择产品分类</option>
-        </select>
-        <span class="errorTips">错误提示信息...</span>
+        <span class="item_name" style="width:120px;">是否推荐：</span>
+        <label class="single_selection"><input type="radio" name="is_recommend"  value="1" {% if type(article.is_recommend)=="string" and article.is_recommend=="1" then %}checked="checked" {% end %}/>是</label>
+        <label class="single_selection"><input type="radio" name="is_recommend" value="0" {% if type(article.is_recommend)=="string" and article.is_recommend=="1" then %}{% else %}checked="checked"{% end %}/>否</label>
+           <span class="errorTips recommend_errorTips" style="display: none">请选择文章所属标签...</span>
        </li>
-       <li>
-        <span class="item_name" style="width:120px;">推荐：</span>
-        <label class="single_selection"><input type="radio" name="name"/>是否精品</label>
-        <label class="single_selection"><input type="radio" name="name"/>是否热销</label>
-        <label class="single_selection"><input type="radio" name="name"/>是否新品</label>
-       </li>
-       <li>
+      <!-- <li>
         <span class="item_name" style="width:120px;">上传图片：</span>
         <label class="uploadImg">
          <input type="file"/>
          <span>上传图片</span>
         </label>
-       </li>
+       </li>-->
        <li>
-        <span class="item_name" style="width:120px;">产品详情：</span>
-        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;"></script>
+        <span class="item_name" style="width:120px;">文章内容：</span>
+        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;">{{article.content}}</script>
            <!--ueditor可删除下列信息-->
-           <div id="btns" style="margin-left:120px;margin-top:8px;">
+           <!--<div id="btns" style="margin-left:120px;margin-top:8px;">
             <div>
                 <button onclick="getAllHtml()">获得整个html的内容</button>
                 <button onclick="getContent()">获得内容</button>
@@ -180,7 +115,8 @@
                 <button onclick="clearLocalData()" >清空草稿箱</button>
             </div>
         
-        </div>
+        </div>-->
+           <span class="errorTips content_errorTips" style="display: none">请选择文章所属标签...</span>
        </li>
        <li>
         <span class="item_name" style="width:120px;"></span>
@@ -219,11 +155,7 @@
         alert(UE.getEditor('editor').getAllHtml())
     }
     function getContent() {
-        var arr = [];
-        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
-        arr.push("内容为：");
-        arr.push(UE.getEditor('editor').getContent());
-        alert(arr.join("\n"));
+        return UE.getEditor('editor').getContent();
     }
     function getPlainTxt() {
         var arr = [];
@@ -257,11 +189,8 @@
     }
 
     function getContentTxt() {
-        var arr = [];
-        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
-        arr.push("编辑器的纯文本内容为：");
-        arr.push(UE.getEditor('editor').getContentTxt());
-        alert(arr.join("\n"));
+        return UE.getEditor('editor').getContentTxt();
+
     }
     function hasContent() {
         var arr = [];
@@ -304,6 +233,65 @@
         UE.getEditor('editor').execCommand( "clearlocaldata" );
         alert("已清空草稿箱")
     }
+    function removeHTMLTag(str) {
+        str = str.replace(/<\/?[^>]*>/g,''); //去除HTML tag
+        str = str.replace(/[ | ]*\n/g,'\n'); //去除行尾空白
+        //str = str.replace(/\n[\s| | ]*\r/g,'\n'); //去除多余空行
+        str=str.replace(/ /ig,'');//去掉
+        return str;
+    }
+
+    $(document).ready(function(){
+        $(".link_btn").click(function(){
+            var title=$("#title").val();
+            var abstarct = $("#abstarct").val();
+            var tag = $("#tag").val();
+            var is_recommend = $("input[name=is_recommend]:checked").val();
+            var content = getContentTxt();
+            var id = $("#id").val()
+            if(!title || title.length > 32){
+                $(".title_errorTips").show();
+                return false;
+            }
+
+            if(!abstarct || abstarct.length > 64)
+            {
+                $(".abstarct_errorTips").show();
+                return false;
+            }
+
+            if(!tag){
+                $(".tag_errorTips").show();
+                return false;
+            }
+
+            if(!content){
+                $(".content_errorTips").show();
+                return false;
+            }
+            alert(title);
+            alert(abstarct);
+            alert(tag);
+            alert(is_recommend);
+            alert(id);
+            $.ajax({
+                url:"/article/update",
+                type:"post",
+                data:{
+                    title:title,
+                    abstarct:abstarct,
+                    tag:tag,
+                    is_recommend:is_recommend,
+                    content:content,
+                    id:id
+                },
+                dataType:"json",
+                success:function(data){
+                    console.log(data);
+                }
+            });
+        })
+    })
 </script>
 </body>
 </html>
