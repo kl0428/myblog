@@ -106,8 +106,9 @@ local slen = string.len
 
             local res,err = article:update(data)
             if not res or err then
-                result['msg'] ="修改文章失败"
+                result['msg'] ="修改文章失败！"
             else
+                result['msg'] ="成功修改文章"
                 result['success'] = true
             end
         else
@@ -116,6 +117,7 @@ local slen = string.len
             if not res or err then
                 result['msg'] ='添加文章失败！'
             else
+                result['msg'] ='成功添加文章！'
                 result['success']=true
             end
         end
@@ -128,9 +130,24 @@ local slen = string.len
 
 --删除文章
     adminArticle:get('/delete/:id',function(req,res,next)
-        ngx.say(json.encode(ngx.req.get_uri_args()))
-        ngx.say(json.encode(req.body))
-        ngx.say("删除文章")
+        --ngx.say(json.encode(ngx.req.get_uri_args()))
+        --ngx.say(json.encode(req.body))
+        --ngx.say("删除文章")
+        local id = req.params.id
+        local result = {success=false}
+        if not id then
+            result['msg'] = "文章不存在！"
+        else
+            id = tonumber(id)
+            local data,res = article:delete(id)
+            if not data or res then
+                result['msg'] ="删除文章失败，请重新尝试"
+            else
+                result['success'] = true
+                result['msg'] = "恭喜，成功删除"
+            end
+        end
+        res:json(result)
     end)
 --查看文章
     adminArticle:get('/detail/:id',function(req,res,next)

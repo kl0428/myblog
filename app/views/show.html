@@ -14,7 +14,7 @@
       </header>
       <article class="article-content">
         <p><img data-original="/static/images/{{article.image}}" src="/static/images/{{article.image}}" alt="" /></p>
-        {{article.content}}
+        <pre class="prettyprint lang-cs">{*article.content*}</pre>
         <!--<pre class="prettyprint lang-cs">代码示例：
         public static double JieCheng(int number)
         {
@@ -133,5 +133,11 @@
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/jquery.ias.js"></script>
     <script src="/static/js/scripts.js"></script>
+    <!--<script>
+        $(function(){
+            var content = "{*article.content*}";
+            $(".lang-cs").append(content);
+        })
+    </script>-->
 </body>
 </html>

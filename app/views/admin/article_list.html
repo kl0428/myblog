@@ -76,7 +76,7 @@
         <td class="center">
          <a href="/article/detail/{{val.id}}" title="预览" class="link_icon" target="_blank">&#118;</a>
          <a href="/article/view?id={{val.id}}" title="编辑" class="link_icon">&#101;</a>
-         <a href="#" title="删除" class="link_icon">&#100;</a>
+         <a href="javascript:del('{{val.id}}');" title="删除" class="link_icon">&#100;</a>
         </td>
        </tr>
        {% end %}
@@ -99,5 +99,30 @@
       </aside>
  </div>
 </section>
+<script>
+   /* $(function(){
+
+    })*/
+    function del(id) {
+        alert("come in");
+        $.ajax({
+            url:"/article/delete/"+id,
+            type:"get",
+            dataType:"json",
+            success:function(data)
+            {
+                console.log(data);
+                
+                if(data.msg){
+                    alert(data.msg);
+                }
+                if(data.success){
+                    window.location.reload();
+                }
+
+            }
+        })
+    }
+</script>
 </body>
 </html>

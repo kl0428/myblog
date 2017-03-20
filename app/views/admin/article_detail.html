@@ -84,7 +84,7 @@
        </li>-->
        <li>
         <span class="item_name" style="width:120px;">文章内容：</span>
-        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;">{{article.content}}</script>
+        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;">{*article.content*}</script>
            <!--ueditor可删除下列信息-->
            <!--<div id="btns" style="margin-left:120px;margin-top:8px;">
             <div>
@@ -242,12 +242,13 @@
     }
 
     $(document).ready(function(){
+
         $(".link_btn").click(function(){
             var title=$("#title").val();
             var abstarct = $("#abstarct").val();
             var tag = $("#tag").val();
             var is_recommend = $("input[name=is_recommend]:checked").val();
-            var content = getContentTxt();
+            var content = getContent();
             var id = $("#id").val()
             if(!title || title.length > 32){
                 $(".title_errorTips").show();
@@ -269,11 +270,6 @@
                 $(".content_errorTips").show();
                 return false;
             }
-            alert(title);
-            alert(abstarct);
-            alert(tag);
-            alert(is_recommend);
-            alert(id);
             $.ajax({
                 url:"/article/update",
                 type:"post",
@@ -288,6 +284,14 @@
                 dataType:"json",
                 success:function(data){
                     console.log(data);
+                    if( data.success){
+                        alert(data.msg);
+                        window.location.href="/article/list";
+                    }else{
+                        if(data.class){
+                            $("."+data.class+"_errorTips").show();
+                        }
+                    }
                 }
             });
         })

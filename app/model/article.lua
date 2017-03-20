@@ -130,7 +130,7 @@ function article:add(info)
         end
 
         local sql_str = "insert into t_article ("..params_str..") values ("..val_str..");"
-        ngx.log(ngx.ERR,json.encode(sql_str))
+        --ngx.log(ngx.ERR,json.encode(sql_str))
         local res , err = db:insert(sql_str)
         if not res or err then
                 return {},err
@@ -148,9 +148,9 @@ function article:delete(id)
         local sql_str = "delete from t_article where id="..id..";"
         local res , err = db:delete(sql_str)
         if not res or err then
-                return {}
+                return {},err
         else
-                return res
+                return res,err
         end
 end
 
