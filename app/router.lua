@@ -3,6 +3,7 @@ local adminCommonRouter = require("app.routes.adminCommon")
 local userRouter = require("app.routes.user")
 local adminArticleRouter = require("app.routes.adminArticle")
 local errorRouter = require("app.routes.error")
+local adminUser = require("app.routes.adminUser")
 
 return function(app)
     app:use("/user",userRouter())
@@ -15,5 +16,6 @@ return function(app)
     app:get("/admin/index(.html|)",adminCommonRouter.index)
     app:use("/article" , adminArticleRouter())
     app:use("/error", errorRouter())
+    app:use("/ause",adminUser())
 end
 
