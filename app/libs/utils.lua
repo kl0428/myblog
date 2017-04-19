@@ -118,6 +118,28 @@ function _M.string_split(str, delimiter)
     return result
 end
 
+--@TODO 生成验证码
+function _M.validate_code(num)
+    --生成验证码
+    local selectChar = {1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f','g','h','j','k','l','m','n','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','J','K','L','M','N','P','Q','R','S','T','U','V','W','X','Y','Z' }
+    math.randomseed(ngx.now())
+    local codeLength = tonumber(num) or 4
+    local code ={}
+    for i=1 , codeLength do
+        local codeNo = selectChar[mfloor(mrandom(1,57))]
+        tinsert(code,codeNo)
+    end
+
+    if #code == codeLength then
+        local code_str = table.concat(code,"")
+        ngx.log(ngx.ERR,"code validate:"..code_str)
+        return code_str,true
+    else
+        return nil,false
+    end
+
+end
+
 return _M
 
 

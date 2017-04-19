@@ -1,11 +1,13 @@
 local smatch = string.match
 local sfind = string.find
+local json = require("cjson")
 
 local function is_login(req)
     local user
     if req.session then
-        user =  req.session.get("user") 
-        if user and user.username and user.userid then  
+        user =  req.session.get("user")
+		ngx.log(ngx.ERR,"judge login"..json.encode(user))
+        if user and user.username and user.id then
             return true, user
         end
     end
@@ -31,17 +33,19 @@ local function check_login(whitelist)
 		local islogin, user= is_login(req)
 
 	    if in_white_list then
+			--ngx.log(ngx.ERR,"in_white_list requestPath:"..requestPath)
         	res.locals.login = islogin
         	res.locals.username = user and user.username
-        	res.locals.userid = user and user.userid
-        	res.locals.create_time = user and user.create_time
+        	res.locals.userid = user and user.id
+        	res.locals.create_time = user and user.gmt_created
             next()
 	    else
 	        if islogin then
 	        	res.locals.login = true
 	        	res.locals.username = user.username
-				res.locals.userid = user.userid
-				res.locals.create_time = user.create_time
+				res.locals.userid = user.id
+				res.locals.create_time = user.gmt_created
+				res.locals.user = user
 	            next()
 	        else
 	        	if sfind(req.headers["Accept"], "application/json") then
@@ -50,7 +54,7 @@ local function check_login(whitelist)
 	        			msg = "该操作需要先登录."
 	        		})
 	        	else
-	            	res:redirect("/auth/login")
+	            	res:redirect("/ause/login")
 	            end
 	        end
 	    end

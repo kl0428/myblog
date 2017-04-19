@@ -21,8 +21,9 @@ local function _multipart_formdata(config)
 	end
 	form:set_timeout(config.recieve_timeout)
 	
-
-	local unique_name = uuid()
+	math.randomseed (os.time())
+	local rand = math.random(1000,10000000)
+	local unique_name = 'myblog'..rand --uuid()
 	local success, msg = false, ""
 	local file, origin_filename, filename, path, extname, err
 	while true do

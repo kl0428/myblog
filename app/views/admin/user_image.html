@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>后台管理系统</title>
+    <meta name="author" content="DeathGhost" />
+    <link rel="stylesheet" type="text/css" href="/static/css_admin/style.css">
+    <!--[if lt IE 9]>
+    <script src="/static/js_admin/html5.js"></script>
+    <![endif]-->
+    <script src="/static/js_admin/jquery.js"></script>
+    <script src="/static/js_admin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/static/js/vue.js"></script>
+    <script>
+
+        (function($){
+            $(window).load(function(){
+
+                $("a[rel='load-content']").click(function(e){
+                    e.preventDefault();
+                    var url=$(this).attr("href");
+                    $.get(url,function(data){
+                        $(".content .mCSB_container").append(data); //load new content inside .mCSB_container
+                        //scroll-to appended content
+                        $(".content").mCustomScrollbar("scrollTo","h2:last");
+                    });
+                });
+
+                $(".content").delegate("a[href='top']","click",function(e){
+                    e.preventDefault();
+                    $(".content").mCustomScrollbar("scrollTo",$(this).attr("href"));
+                });
+
+            });
+        })(jQuery);
+    </script>
+</head>
+<body>
+{(admin/header.html)}
+<!--aside nav-->
+{(admin/left.html)}
+
+<section class="rt_wrap content mCustomScrollbar">
+    <div class="rt_content" id="table">
+        <div class="page_title">
+            <h2 class="fl">会员{%if flag=='update' then %}更新{% elseif flag=='add' then%}添加{% else %}详情{% end %}</h2>
+            <a href="adjust_funding.html" class="fr top_rt_btn money_icon">资金管理</a>
+        </div>
+        <form action="/ause/image?id={{id}}" method="post" enctype="multipart/form-data" >
+            <ul class="ulColumn2">
+                <li>
+                    <span class="item_name" style="width:120px;">上传头像：</span>
+                    <label class="uploadImg">
+                        <input type="file" name="images"/>
+                        <span>上传头像</span>
+                    </label>
+                </li>
+                <li>
+                    <span class="item_name" style="width:120px;"></span>
+                    <input type="submit" class="link_btn" value="{%if flag=='update' then %}提交更新{% elseif flag=='add' then%}提交添加{% end %}"/>
+                </li>
+            </ul>
+        </form>
+    </div>
+</section>
+</body>
+<script>
+    var app = new Vue({
+        el:"#table",
+        data:{
+            'is_username':false,
+            'is_name':false,
+            'is_pwd':false,
+            'is_email':false,
+            'is_mobile':false,
+            'username':'',
+            'name':'',
+            'password':'',
+            'email':'',
+            'mobile':'',
+        },
+
+        /*watch:{
+         username:function(val,oldVal)
+         {
+         var PATRN = '/^[a-zA-Z]{1}[a-zA-Z0-9]{4,19}$/i';
+         console.log(this.is_username);
+         if(!PATRN.test(val)){
+         console.log(PATRN.test(val));
+         this.is_username=true;
+         }else{
+         this.is_username=false;
+         }
+         }
+         },
+         methods:{
+         'cusername':function(){
+         var PATRN = '/^[a-zA-Z]{1}[a-zA-Z0-9]{4,19}$/i';
+         console.log(this.is_username);
+         if(!this.username.match(PATRN)){
+         console.log(this.username.match(PATRN));
+         this.is_username=true;
+         }else{
+         this.is_username=false;
+         }
+         }
+         }
+         */
+
+    })
+
+    /*app.$watch('username',function(){
+     console.log( this.username)
+     },{deep:true,immediate: true})*/
+</script>
+</html>

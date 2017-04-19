@@ -31,7 +31,7 @@ app:use(session_middleware({
 app:use(powered_by_middleware('Lor Framework'))
 
 -- intercepter: login or not
---app:use(check_login_middleware(whitelist))
+app:use(check_login_middleware(whitelist))
 -- uploader
 app:use(uploader_middleware({
     dir = upload_config.dir

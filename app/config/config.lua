@@ -13,14 +13,13 @@ return {
         "^/m2",
 
         "^/index$",
-        "^/ask$",
-        "^/share$",
-        "^/category/[0-9]+$",
+        "^/list",
+        "^/info$",
+        "^/show",
+       --[[ "^/category/[0-9]+$",
         "^/topics/all$",
         "^/topic/[0-9]+/view$",
         "^/topic/[0-9]+/query$",
-
-        "^/comments/all$",
 
         "^/user/[0-9a-zA-Z-_]+/index$",
         "^/user/[0-9a-zA-z-_]+/topics$",
@@ -29,9 +28,12 @@ return {
         "^/user/[0-9a-zA-z-_]+/follows$",
         "^/user/[0-9a-zA-z-_]+/fans$",
         "^/user/[0-9a-zA-z-_]+/hot_topics$",
-        "^/user/[0-9a-zA-z-_]+/like_topics$",
+        "^/user/[0-9a-zA-z-_]+/like_topics$",]]
 
-        "^/auth/login$", -- login page
+        "^/ause/login", -- login page
+        "^/ause/flush",
+        "^/ause/validateCode",
+        "^/ause/logining",
         "^/auth/sign_up$", -- sign up page
         "^/about$", -- about page
         "^/error/$", -- error page
@@ -83,7 +85,7 @@ return {
 
     -- 上传文件配置，如上传的头像、文章中的图片等
     upload_config = {
-        dir = "/home/zhaoqing/myblog/static", -- 文件目录，修改此值时须同时修改nginx配置文件中的$static_files_path值
+        dir = "/home/zhaoqing/myblog/app/static/img", -- 文件目录，修改此值时须同时修改nginx配置文件中的$static_files_path值
     },
 
 }
