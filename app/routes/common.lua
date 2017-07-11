@@ -66,6 +66,8 @@ end
 return common_router]]
 
 local common = require("app.model.common")
+local Redis = require("app.libs.redis_extend")
+local redis = Redis:new()
 local json = require("cjson")
 
 local commonRouter = {}
@@ -128,6 +130,14 @@ commonRouter.show = function(req,res,next)
         res:redircet("/list")
     end
 
+end
+
+commonRouter.redis = function(req,res,next)
+    local name = req.params.name or "zhaoqing"
+    local redis_set = redis:set("name",name)
+    ngx.say(redis_set)
+    local redis_get = redis:get("name")
+    ngx.say(redis_get)
 end
 
 return commonRouter

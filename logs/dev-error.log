@@ -1,68 +1,28 @@
-2017/04/18 17:06:48 [error] 15303#0: *227 [lua] utils.lua:135: validate_code(): code validate:dJYD, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:06:56 [error] 15303#0: *227 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:06:56 [error] 15303#0: *227 [lua] adminUser.lua:462: fn(): user logined code params:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:06:56 [info] 15303#0: *227 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:06:56 [info] 15303#0: *227 recv() failed (104: Connection reset by peer) while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:06:58 [error] 15303#0: *228 [lua] adminUser.lua:345: fn():  logining code:dJYD, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:06:58 [error] 15303#0: *228 [lua] utils.lua:135: validate_code(): code validate:K8lE, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:09:35 [error] 15436#0: *229 [lua] utils.lua:135: validate_code(): code validate:CYAK, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:09:42 [error] 15436#0: *229 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:09:42 [error] 15436#0: *229 [lua] adminUser.lua:457: fn(): body:null, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:09:42 [error] 15436#0: *229 [lua] adminUser.lua:463: fn(): user logined code params:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:09:42 [info] 15436#0: *229 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:09:42 [info] 15436#0: *229 recv() failed (104: Connection reset by peer) while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:09:43 [error] 15436#0: *230 [lua] adminUser.lua:345: fn():  logining code:CYAK, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:09:43 [error] 15436#0: *230 [lua] utils.lua:135: validate_code(): code validate:6vzJ, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:13:03 [error] 15534#0: *231 [lua] utils.lua:135: validate_code(): code validate:CyAg, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:13:08 [error] 15534#0: *231 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:13:08 [error] 15534#0: *231 [lua] adminUser.lua:457: fn(): body:[], client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:13:08 [error] 15534#0: *231 [lua] adminUser.lua:463: fn(): user logined code params:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:13:08 [info] 15534#0: *231 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:13:09 [error] 15534#0: *232 [lua] adminUser.lua:345: fn():  logining code:CyAg, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:13:09 [error] 15534#0: *232 [lua] utils.lua:135: validate_code(): code validate:HpjG, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:37 [error] 15605#0: *233 [lua] utils.lua:135: validate_code(): code validate:xHxE, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:40 [error] 15605#0: *233 [lua] adminUser.lua:345: fn():  logining code:xHxE, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:40 [error] 15605#0: *233 [lua] utils.lua:135: validate_code(): code validate:8TFR, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:56 [error] 15625#0: *234 [lua] utils.lua:135: validate_code(): code validate:eaF4, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:57 [error] 15625#0: *235 [lua] adminUser.lua:345: fn():  logining code:eaF4, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:57 [error] 15625#0: *235 [lua] utils.lua:135: validate_code(): code validate:4bze, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:57 [error] 15625#0: *234 [lua] adminUser.lua:345: fn():  logining code:4bze, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:14:57 [error] 15625#0: *234 [lua] utils.lua:135: validate_code(): code validate:h3GL, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:15:05 [error] 15625#0: *234 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:15:05 [error] 15625#0: *234 [lua] adminUser.lua:457: fn(): body:null, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:15:05 [error] 15625#0: *234 [lua] adminUser.lua:463: fn(): user logined code params:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:15:05 [info] 15625#0: *234 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:15:05 [info] 15625#0: *234 recv() failed (104: Connection reset by peer) while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:15:05 [error] 15625#0: *235 [lua] adminUser.lua:345: fn():  logining code:h3GL, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:15:05 [error] 15625#0: *235 [lua] utils.lua:135: validate_code(): code validate:2tB7, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:17:43 [error] 15625#0: *236 [lua] adminUser.lua:345: fn():  logining code:2tB7, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:17:43 [error] 15625#0: *236 [lua] utils.lua:135: validate_code(): code validate:2TM1, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:17:59 [info] 15625#0: *237 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:17:59 [info] 15625#0: *238 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:17:59 [info] 15625#0: *239 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:17:59 [info] 15625#0: *240 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:17:59 [info] 15625#0: *241 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:18:12 [info] 15764#0: *243 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:18:12 [info] 15767#0: *244 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:18:12 [info] 15767#0: *245 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:18:12 [info] 15767#0: *246 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:18:12 [info] 15767#0: *247 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:18:12 [error] 15764#0: *242 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:18:12 [error] 15764#0: *242 [lua] adminUser.lua:457: fn(): body:null, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:18:12 [error] 15764#0: *242 [lua] adminUser.lua:463: fn(): user logined code params:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:18:12 [error] 15764#0: *242 [lua] utils.lua:135: validate_code(): code validate:98qG, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:20:29 [error] 15842#0: *1 [lua] utils.lua:135: validate_code(): code validate:Q3Xy, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:20:36 [error] 15842#0: *1 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:20:36 [error] 15842#0: *1 [lua] adminUser.lua:457: fn(): body:null, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:20:36 [error] 15842#0: *1 [lua] adminUser.lua:463: fn(): user logined code params:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:20:36 [info] 15842#0: *1 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:20:36 [info] 15842#0: *1 recv() failed (104: Connection reset by peer) while reading client request line, client: 127.0.0.1, server: , request: "on: form-data; name="code""
-2017/04/18 17:20:36 [error] 15842#0: *2 [lua] adminUser.lua:345: fn():  logining code:Q3Xy, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:20:36 [error] 15842#0: *2 [lua] utils.lua:135: validate_code(): code validate:8QUH, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:23:17 [error] 15936#0: *3 [lua] main.lua:59: fn(): ./app/routes/adminUser.lua:345: attempt to concatenate a nil value
+2017/04/28 10:45:06 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:45:06 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:45:06 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:06 [error] 25398#0: *36 [lua] utils.lua:135: validate_code(): code validate:KwPJ, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:06 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:06 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] adminUser.lua:467: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","id":4,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:45:16 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","id":4,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
+2017/04/28 10:45:21 [info] 25398#0: *37 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:45:21 [info] 25398#0: *38 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:45:21 [info] 25398#0: *39 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:45:21 [info] 25398#0: *40 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:45:21 [info] 25398#0: *41 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:45:21 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge login{"id":4,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","grade":2,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:45:21 [error] 25398#0: *36 [lua] main.lua:59: fn(): ./app/libs/redis_extend.lua:35: attempt to index global 'conf' (a nil value)
 stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__concat'
-	./app/routes/adminUser.lua:345: in function 'fn'
+	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__index'
+	./app/libs/redis_extend.lua:35: in function 'connect'
+	./app/libs/redis_extend.lua:73: in function 'set'
+	./app/routes/common.lua:136: in function 'fn'
 	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
 	[C]: in function 'xpcall'
 	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
@@ -70,8 +30,6 @@ stack traceback:
 	/usr/local/lor/lor/lib/router/route.lua:97: in function 'fn'
 	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
 	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:194: in function 'next'
 	...
 	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
 	./app/middleware/response_time.lua:58: in function 'fn'
@@ -82,11 +40,31 @@ stack traceback:
 	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
 	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
 	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:23:19 [error] 15936#0: *3 [lua] main.lua:59: fn(): ./app/routes/adminUser.lua:345: attempt to concatenate a nil value
+	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:45:21 [error] 25398#0: *36 [lua] check_login.lua:9: is_login(): judge login{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:46:21 [info] 25397#0: *43 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:46:21 [info] 25397#0: *44 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:46:21 [info] 25397#0: *45 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:46:21 [info] 25397#0: *46 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:46:21 [info] 25397#0: *47 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:48:12 [error] 25508#0: *48 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:48:12 [error] 25508#0: *48 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:48:12 [error] 25508#0: *48 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:48:12 [error] 25508#0: *48 [lua] utils.lua:135: validate_code(): code validate:e8LQ, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:48:12 [error] 25508#0: *48 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:48:12 [error] 25508#0: *48 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:49:11 [info] 25508#0: *49 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:49:11 [info] 25508#0: *50 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:49:11 [info] 25508#0: *51 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:49:11 [info] 25508#0: *52 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:49:11 [info] 25508#0: *53 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:49:11 [error] 25581#0: *54 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:49:11 [error] 25581#0: *54 [lua] main.lua:59: fn(): ./app/libs/redis_extend.lua:35: attempt to index global 'conf' (a nil value)
 stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__concat'
-	./app/routes/adminUser.lua:345: in function 'fn'
+	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__index'
+	./app/libs/redis_extend.lua:35: in function 'connect'
+	./app/libs/redis_extend.lua:73: in function 'set'
+	./app/routes/common.lua:137: in function 'fn'
 	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
 	[C]: in function 'xpcall'
 	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
@@ -94,8 +72,6 @@ stack traceback:
 	/usr/local/lor/lor/lib/router/route.lua:97: in function 'fn'
 	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
 	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:194: in function 'next'
 	...
 	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
 	./app/middleware/response_time.lua:58: in function 'fn'
@@ -106,628 +82,22 @@ stack traceback:
 	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
 	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
 	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:15 [error] 15974#0: *4 [lua] utils.lua:135: validate_code(): code validate:94ru, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:15 [error] 15974#0: *4 [lua] main.lua:59: fn(): ./app/routes/adminUser.lua:352: attempt to concatenate a nil value
+	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:49:11 [error] 25581#0: *54 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:49:11 [error] 25581#0: *54 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:50:07 [info] 25584#0: *55 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:50:07 [info] 25584#0: *56 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:50:07 [info] 25584#0: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:50:07 [info] 25584#0: *58 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:50:07 [info] 25584#0: *59 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:51:57 [error] 25648#0: *60 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:51:57 [error] 25648#0: *60 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:51:57 [error] 25648#0: *60 [lua] redis_extend.lua:38: connect(): failed to connect:connection refused, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:51:57 [error] 25648#0: *60 [lua] main.lua:59: fn(): ./app/libs/redis_extend.lua:76: attempt to index local 'red' (a nil value)
 stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__concat'
-	./app/routes/adminUser.lua:352: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/route.lua:93: in function 'next'
-	/usr/local/lor/lor/lib/router/route.lua:97: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:194: in function 'next'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:16 [error] 15974#0: *4 [lua] utils.lua:135: validate_code(): code validate:u7Fp, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:16 [error] 15974#0: *4 [lua] adminUser.lua:352: fn():  logining code:94ru, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:18 [error] 15974#0: *4 [lua] utils.lua:135: validate_code(): code validate:n7Vk, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:18 [error] 15974#0: *4 [lua] adminUser.lua:352: fn():  logining code:u7Fp, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:26 [error] 15974#0: *4 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:26 [error] 15974#0: *4 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:26 [error] 15974#0: *4 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:24:26 [error] 15974#0: *4 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] utils.lua:135: validate_code(): code validate:Mkcz, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] main.lua:59: fn(): ./app/routes/adminUser.lua:352: attempt to concatenate a nil value
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__concat'
-	./app/routes/adminUser.lua:352: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/route.lua:93: in function 'next'
-	/usr/local/lor/lor/lib/router/route.lua:97: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:194: in function 'next'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:23 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] utils.lua:135: validate_code(): code validate:Yw2H, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] adminUser.lua:352: fn():  logining code:Mkcz, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:25 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:26 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:26 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/logining, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/logining, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/logining"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/logining"
-2017/04/18 17:25:33 [error] 16036#0: *6 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/logining"
-2017/04/18 17:30:31 [error] 16036#0: *8 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:31 [error] 16036#0: *8 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:31 [error] 16036#0: *8 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login?msg=code"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] utils.lua:135: validate_code(): code validate:tD4C, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] adminUser.lua:352: fn():  logining code:Yw2H, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:30:34 [error] 16036#0: *8 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:31:02 [info] 16036#0: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:31:02 [info] 16036#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:31:02 [info] 16036#0: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:31:02 [info] 16036#0: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:31:02 [info] 16036#0: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:31:02 [error] 16369#0: *14 [lua] utils.lua:135: validate_code(): code validate:ZjFX, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:31:02 [error] 16369#0: *14 [lua] main.lua:59: fn(): ./app/routes/adminUser.lua:352: attempt to concatenate a nil value
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__concat'
-	./app/routes/adminUser.lua:352: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/route.lua:93: in function 'next'
-	/usr/local/lor/lor/lib/router/route.lua:97: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:194: in function 'next'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:40 [error] 16418#0: *15 [lua] utils.lua:135: validate_code(): code validate:Wly9, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:41 [error] 16418#0: *15 [lua] utils.lua:135: validate_code(): code validate:Fnnw, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:48 [error] 16433#0: *16 [lua] utils.lua:135: validate_code(): code validate:llNb, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [error] 16433#0: *16 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [error] 16433#0: *16 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [error] 16433#0: *16 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [error] 16433#0: *16 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [error] 16433#0: *16 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [error] 16433#0: *16 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:32:53 [info] 16433#0: *16 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "data; name="code""
-2017/04/18 17:32:53 [info] 16433#0: *16 recv() failed (104: Connection reset by peer) while reading client request line, client: 127.0.0.1, server: , request: "data; name="code""
-2017/04/18 17:32:53 [error] 16433#0: *18 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *18 [lua] db.lua:40: select(): connected to mysql, reused_times:2 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *18 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *18 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *19 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *19 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *19 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:01 [error] 16433#0: *19 [lua] db.lua:40: select(): connected to mysql, reused_times:3 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:06 [error] 16433#0: *19 [lua] utils.lua:135: validate_code(): code validate:SyTg, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:12 [info] 16433#0: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:33:12 [info] 16433#0: *21 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:33:12 [info] 16433#0: *22 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:33:12 [info] 16433#0: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:33:12 [error] 16433#0: *19 [lua] utils.lua:135: validate_code(): code validate:1Wzr, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:33:44 [error] 16433#0: *19 [lua] utils.lua:135: validate_code(): code validate:mfQc, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:35:38 [error] 16433#0: *24 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:35:38 [error] 16433#0: *24 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:35:38 [error] 16433#0: *24 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:35:38 [error] 16433#0: *24 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:39 [error] 16578#0: *26 [lua] utils.lua:135: validate_code(): code validate:hJF1, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:39 [error] 16578#0: *26 [lua] utils.lua:135: validate_code(): code validate:7Jqa, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:39 [error] 16578#0: *26 [lua] utils.lua:135: validate_code(): code validate:zzZC, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [error] 16578#0: *26 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [error] 16578#0: *26 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [error] 16578#0: *26 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [error] 16578#0: *27 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [error] 16578#0: *27 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [error] 16578#0: *27 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:37:45 [info] 16578#0: *27 client sent invalid method while reading client request line, client: 127.0.0.1, server: , request: "data; name="code""
-2017/04/18 17:37:45 [info] 16578#0: *27 recv() failed (104: Connection reset by peer) while reading client request line, client: 127.0.0.1, server: , request: "data; name="code""
-2017/04/18 17:38:21 [info] 16578#0: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:38:21 [info] 16578#0: *29 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:38:21 [info] 16578#0: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:38:21 [info] 16578#0: *31 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:38:22 [error] 16578#0: *26 [lua] utils.lua:135: validate_code(): code validate:UENe, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:38:29 [error] 16578#0: *26 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:38:29 [error] 16578#0: *26 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:38:29 [error] 16578#0: *26 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:38:29 [error] 16578#0: *26 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:38:29 [error] 16578#0: *26 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:38:29 [error] 16578#0: *26 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:21 [info] 16578#0: *33 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:21 [info] 16578#0: *34 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:21 [info] 16578#0: *35 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:21 [info] 16578#0: *36 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:21 [info] 16578#0: *37 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:41 [error] 16687#0: *39 [lua] utils.lua:135: validate_code(): code validate:88xq, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:44 [error] 16687#0: *39 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [info] 16687#0: *40 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:50 [info] 16687#0: *41 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:50 [info] 16687#0: *42 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:39:50 [error] 16687#0: *39 [lua] db.lua:40: select(): connected to mysql, reused_times:2 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [error] 16687#0: *39 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [error] 16687#0: *39 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [error] 16687#0: *39 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [error] 16687#0: *39 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [error] 16687#0: *39 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:50 [error] 16687#0: *39 [lua] db.lua:40: select(): connected to mysql, reused_times:3 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:53 [error] 16687#0: *39 [lua] utils.lua:135: validate_code(): code validate:cjBQ, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:57 [error] 16687#0: *39 [lua] db.lua:40: select(): connected to mysql, reused_times:4 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:57 [error] 16687#0: *39 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:57 [error] 16687#0: *39 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:57 [error] 16687#0: *39 [lua] uploader.lua:80: _multipart_formdata(): upload file error, path:nil, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:57 [error] 16687#0: *39 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:39:57 [error] 16687#0: *39 attempt to set ngx.status after sending out response headers, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:40:38 [info] 16687#0: *44 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:40:38 [info] 16687#0: *45 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
-2017/04/18 17:40:53 [error] 16747#0: *46 [lua] utils.lua:135: validate_code(): code validate:l9Wt, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:40:59 [error] 16769#0: *48 [lua] utils.lua:135: validate_code(): code validate:s5nB, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:04 [error] 16769#0: *48 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:04 [error] 16769#0: *48 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:04 [error] 16769#0: *48 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:04 [error] 16769#0: *48 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:10 [error] 16784#0: *50 [lua] utils.lua:135: validate_code(): code validate:Tv3H, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:15 [error] 16784#0: *50 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:15 [error] 16784#0: *50 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:15 [error] 16784#0: *50 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:15 [error] 16784#0: *50 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] utils.lua:135: validate_code(): code validate:rq2h, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:34 [error] 16825#0: *52 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/logining, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] adminUser.lua:477: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","id":4,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:38 [error] 16825#0: *52 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/18 17:41:39 [error] 16825#0: *52 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","id":4,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 12:06:41 [error] 16825#0: *54 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://www.appleiphonecell.com/eFDhdH6zPllL8wd/RiCEdoxEd5RJ1hI/Swag12j73z4dW3l/cWdGSI7FTkRjJoc.html HTTP/1.0", host: "www.appleiphonecell.com"
-2017/04/19 12:06:41 [error] 16825#0: *54 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:50: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:50: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://www.appleiphonecell.com/eFDhdH6zPllL8wd/RiCEdoxEd5RJ1hI/Swag12j73z4dW3l/cWdGSI7FTkRjJoc.html HTTP/1.0", host: "www.appleiphonecell.com"
-2017/04/19 12:06:48 [error] 16825#0: *55 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://szextshort.weixin.qq.com/mmtls/38862d09 HTTP/1.1", host: "szextshort.weixin.qq.com"
-2017/04/19 12:06:48 [error] 16825#0: *56 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://szextshort.weixin.qq.com/mmtls/38862d09 HTTP/1.1", host: "szextshort.weixin.qq.com"
-2017/04/19 12:06:48 [error] 16825#0: *57 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://szshort.weixin.qq.com/mmtls/38866eb0 HTTP/1.1", host: "szshort.weixin.qq.com"
-2017/04/19 12:06:53 [info] 16825#0: *58 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p52-buy.itunes.apple.com:443 HTTP/1.1"
-2017/04/19 12:07:15 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/7788 HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:15 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:15 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:16 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:16 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:16 [error] 16825#0: *59 [lua] utils.lua:135: validate_code(): code validate:LaRQ, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:22 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/7788 HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:22 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:22 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:22 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:22 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:22 [error] 16825#0: *59 [lua] utils.lua:135: validate_code(): code validate:vBLv, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:28 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/7788 HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:28 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:28 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:07:28 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:28 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:28 [error] 16825#0: *59 [lua] utils.lua:135: validate_code(): code validate:zAYh, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:33 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:33 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:33 [error] 16825#0: *59 [lua] utils.lua:135: validate_code(): code validate:1fHR, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:39 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:39 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:39 [error] 16825#0: *59 [lua] utils.lua:135: validate_code(): code validate:vnHW, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:07:46 [info] 16825#0: *61 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:07:46 [info] 16825#0: *62 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:07:46 [info] 16825#0: *64 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:07:46 [info] 16825#0: *63 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:07:46 [info] 16825#0: *60 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:08:02 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/7788 HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:08:02 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:08:02 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/login HTTP/1.1", host: "hz.antuan.com"
-2017/04/19 12:08:02 [error] 16825#0: *59 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:08:02 [error] 16825#0: *59 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/flush, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:08:02 [error] 16825#0: *59 [lua] utils.lua:135: validate_code(): code validate:65G5, client: 172.16.33.94, server: , request: "GET http://hz.antuan.com/ause/flush HTTP/1.1", host: "hz.antuan.com", referrer: "http://hz.antuan.com/ause/login"
-2017/04/19 12:08:33 [info] 16825#0: *59 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:10:30 [error] 16825#0: *65 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://117.135.169.110:80/ HTTP/1.1", host: "117.135.169.110:80"
-2017/04/19 12:10:30 [error] 16825#0: *65 [lua] check_login.lua:36: fn(): in_white_list requestPath:/, client: 172.16.33.94, server: , request: "POST http://117.135.169.110:80/ HTTP/1.1", host: "117.135.169.110:80"
-2017/04/19 12:12:45 [error] 16825#0: *66 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.8.26]/mmsns/FyV0gCicdhibYB7UXDInOutOuybDiatA4sN74jNgGK4s4wch6rfjkXXeDWdc4A9ohicXNysQncthr3s/0?tp=wxpc&length=1136&width=640&idx=1&token=WSEN6qDsKwV8A02w3onOGQYfxnkibdqSOkmHhZGNB4DEdT4f0hA5GCzvb1BYy36iboVSw30W6zeTC4qZyMlKc7iag HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:12:45 [error] 16825#0: *66 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.8.26]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:12:45 [error] 16825#0: *66 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.8.26]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:12:54 [error] 16825#0: *67 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://vweixinthumb.tc.qq.com/109/20204/snsvideodownload?filekey=30270201010420301e02016d0402534804101061faaee1f58fce4be872d0a40f2feb0203036e520400&hy=SH&storeid=32303137303431313133333733313030303635636166313336666664393337303561333230613030303030303664&bizid=1023 HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:12:54 [error] 16825#0: *67 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://vweixinthumb.tc.qq.com/ause/login HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:12:54 [error] 16825#0: *67 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://vweixinthumb.tc.qq.com/ause/login HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:01 [error] 16825#0: *68 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.10.105]/mmsns/KJ8btIX63XLM3Fklibx3lZnps3A2gcYvlYialicuyJibIOicMXibia2kYU4sseYxU7jmu1rBmwrZ6gXOtI/0?tp=wxpc&length=1136&width=640&idx=1&token=WSEN6qDsKwV8A02w3onOGQYfxnkibdqSOkmHhZGNB4DEhNucFiaUEPApYwtdUBzM59wRG5uSye47VWqkJWJlvCVA HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:01 [error] 16825#0: *68 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.10.105]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:01 [error] 16825#0: *68 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.10.105]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:06 [error] 16825#0: *69 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.68.23]/109/20204/snsvideodownload?filekey=30270201010420301e02016d0402534804101061faaee1f58fce4be872d0a40f2feb0203036e520400&hy=SH&storeid=32303137303431313133333733313030303635636166313336666664393337303561333230613030303030303664&bizid=1023?tp=wxpc&length=1136&width=640 HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:06 [error] 16825#0: *69 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.68.23]/ause/login HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:06 [error] 16825#0: *69 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.68.23]/ause/login HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:08 [error] 16825#0: *70 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.26.115]/mmhead/ver_1/psF8jyXIAze3hnSM7lPdOC82aTwBUmLjOpXicPHoo3L5hvz54Az5Rn2Juvc3SHYtyx2Eo9fP9PwbLC10NEwh1libnsQtdb4mG20Vl2fkt9bsE/132 HTTP/1.1", host: "wx.qlogo.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1"
-2017/04/19 12:13:08 [error] 16825#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:61.151.186.31]/mmhead/ver_1/psF8jyXIAze3hnSM7lPdOC82aTwBUmLjOpXicPHoo3L5hvz54Az5Rn2Juvc3SHYtyx2Eo9fP9PwbLC10NEwh1libnsQtdb4mG20Vl2fkt9bsE/132 HTTP/1.1", host: "wx.qlogo.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1"
-2017/04/19 12:13:08 [error] 16825#0: *70 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.26.115]/ause/login HTTP/1.1", host: "wx.qlogo.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1"
-2017/04/19 12:13:08 [error] 16825#0: *70 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.26.115]/ause/login HTTP/1.1", host: "wx.qlogo.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1"
-2017/04/19 12:13:08 [error] 16825#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:61.151.186.31]/ause/login HTTP/1.1", host: "wx.qlogo.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1"
-2017/04/19 12:13:08 [error] 16825#0: *71 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:61.151.186.31]/ause/login HTTP/1.1", host: "wx.qlogo.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1"
-2017/04/19 12:13:11 [error] 16825#0: *72 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.8.112]/mmsns/vvUvEXcFo6YLEQicfjKibtcqPpUeibHbXqAaVGFwxCSrkXF0f9E8YMTeLGTDqwHDiaBlIHnWTiacXuCI/0?tp=wxpc&length=1136&width=640&idx=1&token=WSEN6qDsKwV8A02w3onOGQYfxnkibdqSOkmHhZGNB4DEbcvo79iaoAkuoc9UM9YTkV9xUvrDBqutpJUDYfO1CZ3w HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:11 [error] 16825#0: *72 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.8.112]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:11 [error] 16825#0: *72 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.8.112]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:15 [info] 16825#0: *66 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:15 [error] 16825#0: *73 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.68.25]/109/20204/snsvideodownload?filekey=30270201010420301e02016d0402534804101061faaee1f58fce4be872d0a40f2feb0203036e520400&hy=SH&storeid=32303137303431313133333733313030303635636166313336666664393337303561333230613030303030303664&bizid=1023?tp=wxpc&length=1136&width=640 HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:15 [error] 16825#0: *73 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.68.25]/ause/login HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:15 [error] 16825#0: *73 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.163.68.25]/ause/login HTTP/1.1", host: "vweixinthumb.tc.qq.com", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:23 [error] 16825#0: *74 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.7.101]/mmsns/AQWZnTyyFDvFFEibMqjw9UwHyXt2icRmicoBqOuZlHfZavANAhcpe9qdK58RTLIicXFzJu5wkOpSK1w/0?tp=wxpc&length=1136&width=640&idx=1&token=WSEN6qDsKwV8A02w3onOGQYfxnkibdqSOkmHhZGNB4DEk0HZVibujdGT9UMCxfmOjKxWm0RobMsMLugIBLXPKulw HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:23 [error] 16825#0: *74 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.7.101]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:23 [error] 16825#0: *74 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://[::ffff:180.97.7.101]/ause/login HTTP/1.1", host: "shmmsns.qpic.cn", referrer: "http://weixin.qq.com/?version=369428256&uin=2065441014&nettype=1&scene=timeline"
-2017/04/19 12:13:24 [info] 16825#0: *67 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:31 [info] 16825#0: *68 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:32 [info] 16825#0: *75 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 12:13:32 [info] 16825#0: *76 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 12:13:34 [info] 16825#0: *74 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:34 [info] 16825#0: *69 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:34 [info] 16825#0: *73 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:34 [info] 16825#0: *71 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:34 [info] 16825#0: *72 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:34 [info] 16825#0: *70 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:13:36 [info] 16825#0: *77 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT iphonesubmissions.apple.com:443 HTTP/1.1"
-2017/04/19 12:13:39 [info] 16825#0: *78 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:13:39 [info] 16825#0: *79 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:13:39 [error] 16825#0: *80 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://api.m.taobao.com/gw/mtop.common.gettimestamp/*?rnd=913A7E2871DE9A5B1390739E03217CAA&data=%7B%7D HTTP/1.1", host: "api.m.taobao.com"
-2017/04/19 12:13:39 [error] 16825#0: *80 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://api.m.taobao.com/ause/login HTTP/1.1", host: "api.m.taobao.com"
-2017/04/19 12:13:39 [error] 16825#0: *80 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://api.m.taobao.com/ause/login HTTP/1.1", host: "api.m.taobao.com"
-2017/04/19 12:13:41 [info] 16825#0: *81 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT entpsz.alipay.com:443 HTTP/1.1"
-2017/04/19 12:13:43 [info] 16825#0: *82 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:13:44 [info] 16825#0: *83 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 12:13:44 [info] 16825#0: *84 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *86 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT a.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *85 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *88 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *87 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *89 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT zos.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *90 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *91 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *92 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *94 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *93 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *95 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *96 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *97 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *98 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *99 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *100 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:49 [info] 16825#0: *101 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:50 [info] 16825#0: *102 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT zos.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:50 [info] 16825#0: *103 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT zos.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *104 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *105 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *106 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *107 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *108 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *109 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *110 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *112 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *111 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:51 [info] 16825#0: *113 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *114 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *115 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT a.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *117 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *116 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *118 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *120 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *121 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *122 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *119 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *123 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *124 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT eco.taobao.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *125 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *126 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *127 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *128 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *129 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *130 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:53 [info] 16825#0: *131 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *133 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *132 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *134 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *136 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *135 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *137 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:54 [info] 16825#0: *138 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:58 [info] 16825#0: *139 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:58 [info] 16825#0: *140 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT a.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:58 [info] 16825#0: *142 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:58 [info] 16825#0: *141 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:59 [info] 16825#0: *144 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:59 [info] 16825#0: *143 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT zos.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:59 [info] 16825#0: *145 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:13:59 [info] 16825#0: *146 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 12:14:10 [info] 16825#0: *80 client 172.16.33.94 closed keepalive connection
-2017/04/19 12:15:44 [info] 16825#0: *147 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 12:15:44 [info] 16825#0: *148 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 12:16:43 [info] 16825#0: *149 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:16:43 [info] 16825#0: *150 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:20:59 [info] 16825#0: *151 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:22:10 [info] 16825#0: *152 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:22:10 [info] 16825#0: *153 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:22:10 [info] 16825#0: *154 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:25:07 [error] 16825#0: *155 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://init-p01st.push.apple.com/bag HTTP/1.1", host: "init-p01st.push.apple.com"
-2017/04/19 12:25:07 [error] 16825#0: *155 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://init-p01st.push.apple.com/ause/login HTTP/1.1", host: "init-p01st.push.apple.com"
-2017/04/19 12:25:07 [error] 16825#0: *155 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://init-p01st.push.apple.com/ause/login HTTP/1.1", host: "init-p01st.push.apple.com"
-2017/04/19 12:27:10 [error] 16825#0: *156 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://www.thinkdifferent.us/NwoeoRJtGS/CKyIqXbNUv/U5RAjiIvC1/ScWYGhI7V5/tG4Ek0TBPc.html HTTP/1.0", host: "www.thinkdifferent.us"
-2017/04/19 12:27:10 [error] 16825#0: *156 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:50: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:50: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://www.thinkdifferent.us/NwoeoRJtGS/CKyIqXbNUv/U5RAjiIvC1/ScWYGhI7V5/tG4Ek0TBPc.html HTTP/1.0", host: "www.thinkdifferent.us"
-2017/04/19 12:32:47 [info] 16825#0: *157 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 12:32:48 [info] 16825#0: *158 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT configuration.apple.com:443 HTTP/1.1"
-2017/04/19 12:32:48 [info] 16825#0: *159 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT configuration.apple.com:443 HTTP/1.1"
-2017/04/19 12:37:16 [error] 16825#0: *160 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://www.ibook.info/PJE4ZzPo2O9geWM/juP2nuMiPFZzASj/p7uUhfQpclxj1vX/3M5ST48vFT4NOaO.html HTTP/1.0", host: "www.ibook.info"
-2017/04/19 12:37:16 [error] 16825#0: *160 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:50: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:50: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://www.ibook.info/PJE4ZzPo2O9geWM/juP2nuMiPFZzASj/p7uUhfQpclxj1vX/3M5ST48vFT4NOaO.html HTTP/1.0", host: "www.ibook.info"
-2017/04/19 12:55:06 [error] 16825#0: *161 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://www.itools.info/yAVfohMypI7Ie/3cFp1Sfy5Ofvf.html HTTP/1.0", host: "www.itools.info"
-2017/04/19 12:55:06 [error] 16825#0: *161 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:50: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:50: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://www.itools.info/yAVfohMypI7Ie/3cFp1Sfy5Ofvf.html HTTP/1.0", host: "www.itools.info"
-2017/04/19 12:55:20 [error] 16825#0: *162 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://init-p01st.push.apple.com/bag HTTP/1.1", host: "init-p01st.push.apple.com"
-2017/04/19 12:55:20 [error] 16825#0: *162 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://init-p01st.push.apple.com/ause/login HTTP/1.1", host: "init-p01st.push.apple.com"
-2017/04/19 12:55:20 [error] 16825#0: *162 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://init-p01st.push.apple.com/ause/login HTTP/1.1", host: "init-p01st.push.apple.com"
-2017/04/19 12:55:51 [info] 16825#0: *162 client 172.16.33.94 closed keepalive connection
-2017/04/19 13:09:51 [error] 16825#0: *163 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://www.ibook.info/P2I1JvKZbfz/OXo09ZalqTI/4HRIK2EOBKS.html HTTP/1.0", host: "www.ibook.info"
-2017/04/19 13:09:51 [error] 16825#0: *163 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:50: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:50: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://www.ibook.info/P2I1JvKZbfz/OXo09ZalqTI/4HRIK2EOBKS.html HTTP/1.0", host: "www.ibook.info"
-2017/04/19 13:16:10 [info] 16825#0: *164 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:10 [info] 16825#0: *165 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:11 [info] 16825#0: *166 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:11 [info] 16825#0: *167 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:11 [info] 16825#0: *168 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:11 [info] 16825#0: *169 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:11 [info] 16825#0: *170 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:11 [info] 16825#0: *171 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT p39-ckdatabase.icloud.com:443 HTTP/1.1"
-2017/04/19 13:16:32 [info] 16825#0: *172 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 13:16:32 [info] 16825#0: *173 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 13:26:06 [error] 16825#0: *174 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://captive.apple.com/3xQ6mFgxKAE3Fdn/hqKSYHlTtzJSUll/aUtwpQ7TfLuMZpZ/vQ96d8KhdhdmRjE.html HTTP/1.0", host: "captive.apple.com"
-2017/04/19 13:26:06 [error] 16825#0: *174 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:50: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:50: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://captive.apple.com/3xQ6mFgxKAE3Fdn/hqKSYHlTtzJSUll/aUtwpQ7TfLuMZpZ/vQ96d8KhdhdmRjE.html HTTP/1.0", host: "captive.apple.com"
-2017/04/19 13:26:11 [info] 16825#0: *175 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 13:26:12 [error] 16825#0: *176 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://api.m.taobao.com/gw/mtop.common.gettimestamp/*?rnd=67CA3F136D485740BB0882E56208374C&data=%7B%7D HTTP/1.1", host: "api.m.taobao.com"
-2017/04/19 13:26:12 [info] 16825#0: *176 client 172.16.33.94 closed keepalive connection
-2017/04/19 13:26:12 [error] 16825#0: *177 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://api.m.taobao.com/ause/login HTTP/1.1", host: "api.m.taobao.com"
-2017/04/19 13:26:12 [error] 16825#0: *177 [lua] check_login.lua:36: fn(): in_white_list requestPath:/ause/login, client: 172.16.33.94, server: , request: "GET http://api.m.taobao.com/ause/login HTTP/1.1", host: "api.m.taobao.com"
-2017/04/19 13:26:13 [info] 16825#0: *178 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 13:26:13 [info] 16825#0: *179 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mdap.alipay.com:443 HTTP/1.1"
-2017/04/19 13:26:14 [info] 16825#0: *180 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:14 [info] 16825#0: *181 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT a.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:14 [info] 16825#0: *182 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:14 [info] 16825#0: *183 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:14 [info] 16825#0: *184 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT zos.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:14 [info] 16825#0: *185 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:15 [info] 16825#0: *186 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:15 [info] 16825#0: *187 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:20 [info] 16825#0: *188 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:20 [info] 16825#0: *189 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT a.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:20 [info] 16825#0: *190 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:20 [info] 16825#0: *191 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT os.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:21 [info] 16825#0: *192 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT zos.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:21 [info] 16825#0: *193 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:21 [info] 16825#0: *194 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:21 [info] 16825#0: *195 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT tfs.alipayobjects.com:443 HTTP/1.1"
-2017/04/19 13:26:25 [info] 16825#0: *177 client 172.16.33.94 closed keepalive connection
-2017/04/19 14:17:39 [error] 4404#0: *196 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:17:39 [error] 4404#0: *196 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:47:29 [error] 4404#0: *197 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:29 [error] 4404#0: *197 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:29 [error] 4404#0: *198 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:29 [error] 4404#0: *198 [lua] utils.lua:135: validate_code(): code validate:B8nA, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:29 [error] 4404#0: *198 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:29 [error] 4404#0: *198 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:42 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:43 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:43 [error] 5421#0: *199 [lua] utils.lua:135: validate_code(): code validate:BHrx, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:43 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:43 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] adminUser.lua:467: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","id":4,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:48 [error] 5421#0: *199 [lua] main.lua:59: fn(): ./app/routes/adminUser.lua:32: Cannot serialise function: type not supported
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'encode'
-	./app/routes/adminUser.lua:32: in function 'fn'
+	/usr/local/lor/lor/lib/router/layer.lua:120: in function '__index'
+	./app/libs/redis_extend.lua:76: in function 'set'
+	./app/routes/common.lua:137: in function 'fn'
 	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
 	[C]: in function 'xpcall'
 	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
@@ -746,141 +116,25 @@ stack traceback:
 	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
 	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
 	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:47:49 [error] 5421#0: *199 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","id":4,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:49:36 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:36 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:36 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:36 [error] 5522#0: *201 [lua] utils.lua:135: validate_code(): code validate:8DLq, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:36 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:36 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] adminUser.lua:467: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","id":4,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:43 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","id":4,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:49:55 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"id":4,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","grade":2,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:55 [error] 5522#0: *201 [lua] db.lua:40: select(): connected to mysql, reused_times:2 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:55 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:49:56 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","id":4,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:56 [error] 5522#0: *201 [lua] db.lua:40: select(): connected to mysql, reused_times:3 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:56 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","id":4,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:49:58 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"id":4,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","grade":2,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:58 [error] 5522#0: *201 [lua] db.lua:40: select(): connected to mysql, reused_times:4 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:49:58 [error] 5522#0: *201 [lua] check_login.lua:9: is_login(): judge login{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 14:56:04 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:04 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:04 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:04 [error] 5743#0: *203 [lua] utils.lua:135: validate_code(): code validate:6Ybn, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:04 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:04 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] db.lua:40: select(): connected to mysql, reused_times:0 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created`,`password` from t_user where `username` = 'zq'; , client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] user.lua:80: login(): login data:[{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}]passwprd:123456, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] adminUser.lua:467: fn(): user logined params:{"id":4,"email":"244621747@qq.com","password":"123456","grade":2,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "POST /ause/logining HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","mobile":"18368113211","validate":"0","id":4,"gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] db.lua:40: select(): connected to mysql, reused_times:1 sql:select `id`,`username`,`name`,`mobile`,`email`,`validate`,`grade`,`images`,`gmt_created` from t_user, client: 127.0.0.1, server: , request: "GET /ause/list HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
-2017/04/19 14:56:13 [error] 5743#0: *203 [lua] check_login.lua:9: is_login(): judge login{"grade":2,"email":"244621747@qq.com","password":"123456","id":4,"validate":"0","mobile":"18368113211","gmt_created":"2017-04-12 06:56:27","username":"zq","name":"赵晴","images":"myblog2200073.jpg"}, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/list"
-2017/04/19 15:21:34 [error] 5743#0: *205 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://www.ibook.info/sCpB4wz8/L1nZ8wZK/Psf3Hk72.html HTTP/1.0", host: "www.ibook.info"
-2017/04/19 15:21:34 [error] 5743#0: *205 [lua] main.lua:59: fn(): ./app/middleware/check_login.lua:51: bad argument #1 to 'sfind' (string expected, got nil)
-stack traceback:
-	/usr/local/lor/lor/lib/router/layer.lua:120: in function </usr/local/lor/lor/lib/router/layer.lua:119>
-	[C]: in function 'sfind'
-	./app/middleware/check_login.lua:51: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/powered_by.lua:5: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	...
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	./app/middleware/response_time.lua:58: in function 'fn'
-	/usr/local/lor/lor/lib/router/layer.lua:118: in function </usr/local/lor/lor/lib/router/layer.lua:117>
-	[C]: in function 'xpcall'
-	/usr/local/lor/lor/lib/router/layer.lua:117: in function 'handle_request'
-	/usr/local/lor/lor/lib/router/router.lua:205: in function 'next'
-	/usr/local/lor/lor/lib/router/router.lua:214: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:95: in function 'handle'
-	/usr/local/lor/lor/lib/application.lua:54: in function 'run'
-	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 172.16.33.94, server: , request: "GET http://www.ibook.info/sCpB4wz8/L1nZ8wZK/Psf3Hk72.html HTTP/1.0", host: "www.ibook.info"
-2017/04/19 15:21:37 [error] 5743#0: *207 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://wup.imtt.qq.com:8080/?tk=60569b63ee758764f86ae5942ba8b7417d2dce1c666b8675c7435fdd06952b6a323f6e7f03b881db21133b1bf2ae5bc5 HTTP/1.1", host: "wup.imtt.qq.com:8080"
-2017/04/19 15:21:37 [error] 5743#0: *207 [lua] uploader.lua:19: _multipart_formdata(): failed to new upload: no boundary defined in Content-Type, client: 172.16.33.94, server: , request: "POST http://wup.imtt.qq.com:8080/?tk=60569b63ee758764f86ae5942ba8b7417d2dce1c666b8675c7435fdd06952b6a323f6e7f03b881db21133b1bf2ae5bc5 HTTP/1.1", host: "wup.imtt.qq.com:8080"
-2017/04/19 15:21:37 [error] 5743#0: *206 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://configsvr.msf.3g.qq.com/configsvr/getchannel.jsp HTTP/1.1", host: "configsvr.msf.3g.qq.com"
-2017/04/19 15:21:37 [error] 5743#0: *206 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://configsvr.msf.3g.qq.com/ause/login HTTP/1.1", host: "configsvr.msf.3g.qq.com"
-2017/04/19 15:21:37 [info] 5743#0: *208 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mqqeve.beacon.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:37 [info] 5743#0: *209 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT wspeed.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:37 [info] 5743#0: *210 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT wspeed.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:37 [info] 5743#0: *211 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT yun-hl.3g.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:37 [info] 5743#0: *212 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT yun-hl.3g.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:38 [error] 5743#0: *213 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "POST http://lbs.map.qq.com/loc?c=1&mars=1&obs=2 HTTP/1.1", host: "lbs.map.qq.com"
-2017/04/19 15:21:38 [error] 5743#0: *213 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://lbs.map.qq.com/ause/login HTTP/1.1", host: "lbs.map.qq.com"
-2017/04/19 15:21:38 [info] 5743#0: *214 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 15:21:38 [info] 5743#0: *215 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT gs-loc.apple.com:443 HTTP/1.1"
-2017/04/19 15:21:38 [info] 5743#0: *216 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:40 [info] 5743#0: *217 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT imgcache.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:40 [info] 5743#0: *218 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT imgcache.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:40 [info] 5743#0: *219 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT imgcache.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:40 [info] 5743#0: *220 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:40 [info] 5743#0: *221 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:40 [info] 5743#0: *222 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:41 [info] 5743#0: *223 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT vv.video.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:41 [info] 5743#0: *224 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:41 [info] 5743#0: *225 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:41 [info] 5743#0: *226 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mqqeve.beacon.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:41 [info] 5743#0: *227 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-EE4AFD457CA0CA7886A57AFA11FEBD63_open_212_190/320?fmt=jpg&size=201&rs=151-141&h=518&w=749&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *229 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-8BCFF38E911846272F54F34E51D923CB_open_212_190/320?fmt=png&size=384&rs=288-269&h=413&w=750&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *230 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-F1F8247BADE594CD2A5189D1A008B403_open_212_190/320?fmt=png&size=395&rs=296-277&h=414&w=750&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *229 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *230 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-FA885450DB8F96836A64BE4737E1B615_open_212_190/320 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-78546D8D865B277F6E0515F7565B63F7_open_212_190/320?fmt=jpg&size=33&h=310&w=500&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *229 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-E151AE0097DA7212A0A4B75D2C73AF88_open_212_190/320?fmt=jpg&size=32&h=310&w=502&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *230 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *229 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-C59B47CD6F33391C983D2FC5735F6957_open_212_190/320?fmt=jpg&size=25&h=312&w=502&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:42 [info] 5743#0: *231 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT vv.video.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:42 [info] 5743#0: *232 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT vv.video.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:42 [info] 5743#0: *233 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT init.itunes.apple.com:443 HTTP/1.1"
-2017/04/19 15:21:42 [info] 5743#0: *234 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT init.itunes.apple.com:443 HTTP/1.1"
-2017/04/19 15:21:43 [info] 5743#0: *235 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT szmg.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:43 [info] 5743#0: *236 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT init.itunes.apple.com:443 HTTP/1.1"
-2017/04/19 15:21:43 [info] 5743#0: *237 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT szmg.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:43 [info] 5743#0: *238 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT szmg.qq.com:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *239 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *240 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *241 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *242 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *244 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *243 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *245 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:44 [info] 5743#0: *246 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT hb.url.cn:443 HTTP/1.1"
-2017/04/19 15:21:45 [info] 5743#0: *247 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:45 [info] 5743#0: *248 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:45 [info] 5743#0: *249 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT i.gtimg.cn:443 HTTP/1.1"
-2017/04/19 15:21:47 [info] 5743#0: *250 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT cdn.ark.qq.com:80 HTTP/1.1"
-2017/04/19 15:21:47 [info] 5743#0: *251 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT cdn.ark.qq.com:80 HTTP/1.1"
-2017/04/19 15:21:47 [info] 5743#0: *252 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT cdn.ark.qq.com:80 HTTP/1.1"
-2017/04/19 15:21:59 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-C59B47CD6F33391C983D2FC5735F6957_open_212_190/320?fmt=jpg&size=25&h=312&w=502&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [error] 5743#0: *229 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-E151AE0097DA7212A0A4B75D2C73AF88_open_212_190/320?fmt=jpg&size=32&h=310&w=502&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [error] 5743#0: *230 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-78546D8D865B277F6E0515F7565B63F7_open_212_190/320?fmt=jpg&size=33&h=310&w=500&ppv=1 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [info] 5743#0: *230 client 172.16.33.94 closed keepalive connection
-2017/04/19 15:21:59 [error] 5743#0: *229 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [error] 5743#0: *253 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-71EA00A033F57D39A8C61EA2C9CD1068_open_750_415/900 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:21:59 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:22:06 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public_cover/0/0-10000-FA885450DB8F96836A64BE4737E1B615_open_212_190/320 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:22:06 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:22:06 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/qq_public/0/0-2217070952-5903E34B63A0CC29A192786AD099A969/600 HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:22:06 [error] 5743#0: *228 [lua] check_login.lua:9: is_login(): judge loginnull, client: 172.16.33.94, server: , request: "GET http://qqpublic.qpic.cn/ause/login HTTP/1.1", host: "qqpublic.qpic.cn"
-2017/04/19 15:22:07 [info] 5743#0: *206 client 172.16.33.94 closed keepalive connection
-2017/04/19 15:22:07 [info] 5743#0: *254 client sent invalid request while reading client request line, client: 172.16.33.94, server: , request: "CONNECT mqqeve.beacon.qq.com:443 HTTP/1.1"
+	/home/zhaoqing/myblog/./app/main.lua:71: in function </home/zhaoqing/myblog/./app/main.lua:1>, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:51:58 [error] 25648#0: *60 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:51:58 [error] 25648#0: *60 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:52:27 [info] 25648#0: *61 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:52:27 [info] 25648#0: *62 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:52:27 [info] 25648#0: *63 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:52:27 [info] 25648#0: *64 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:55:12 [error] 25747#0: *66 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /redis/mm HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:55:12 [error] 25747#0: *66 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:55:12 [error] 25747#0: *66 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/redis/mm"
+2017/04/28 10:56:12 [info] 25747#0: *67 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:56:12 [info] 25747#0: *68 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:56:12 [info] 25747#0: *69 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 10:59:54 [error] 25747#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /redis/%E8%B5%B5%E6%99%B4 HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:59:54 [error] 25747#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888"
+2017/04/28 10:59:54 [error] 25747#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:59:54 [error] 25747#0: *71 [lua] utils.lua:135: validate_code(): code validate:wCaX, client: 127.0.0.1, server: , request: "GET /ause/flush HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:59:54 [error] 25747#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 10:59:54 [error] 25747#0: *71 [lua] check_login.lua:9: is_login(): judge loginnull, client: 127.0.0.1, server: , request: "GET /ause/login HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/ause/login"
+2017/04/28 11:00:54 [info] 25747#0: *72 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 11:00:54 [info] 25747#0: *73 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888
+2017/04/28 11:00:54 [info] 25747#0: *74 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8888

@@ -37,7 +37,8 @@ return {
         "^/auth/sign_up$", -- sign up page
         "^/about$", -- about page
         "^/error/$", -- error page
-        "^/article/$" -- error page
+        "^/article/$", -- error page
+        "^/redis/[0-9a-zA-Z]+$",
     },
 
     -- 静态模板配置，保持默认不修改即可
@@ -79,6 +80,21 @@ return {
         pool_config = {
             max_idle_timeout = 20000, -- 20s
             pool_size = 50 -- connection pool size
+        }
+    },
+
+    --redis配置
+    redis = {
+        timeout = 1000,
+        connect_config = {
+            host = "127.0.0.1",
+            port = 6379,
+            select = 0,
+            password = "",
+        },
+        pool_config = {
+            max_idle_timeout = 10000,--10s
+            pool_size = 100 , -- connection pool size
         }
     },
 
